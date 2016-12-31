@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE3D0C51E1878CC0055816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE3D0C41E1878CC0055816F /* Assets.xcassets */; };
+		BFE3D0CC1E1878CC0055816F /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BFE3D0CB1E1878CC0055816F /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFE3D0D11E1878CC0055816F /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE3D0D01E1878CC0055816F /* Messages.framework */; };
+		BFE3D0D41E1878CC0055816F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3D0D31E1878CC0055816F /* MessagesViewController.swift */; };
+		BFE3D0D71E1878CC0055816F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE3D0D51E1878CC0055816F /* MainInterface.storyboard */; };
+		BFE3D0D91E1878CC0055816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE3D0D81E1878CC0055816F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE3D0CD1E1878CC0055816F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE3D0BB1E1878CB0055816F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE3D0CA1E1878CC0055816F;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFE3D0E01E1878CC0055816F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BFE3D0CC1E1878CC0055816F /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFE3D0C11E1878CB0055816F /* SpyHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE3D0C41E1878CC0055816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE3D0C61E1878CC0055816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE3D0CB1E1878CC0055816F /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE3D0D01E1878CC0055816F /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		BFE3D0D31E1878CC0055816F /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		BFE3D0D61E1878CC0055816F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BFE3D0D81E1878CC0055816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE3D0DA1E1878CC0055816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE3D0C81E1878CC0055816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE3D0D11E1878CC0055816F /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE3D0BA1E1878CB0055816F = {
+			isa = PBXGroup;
+			children = (
+				BFE3D0C31E1878CB0055816F /* SpyHunter */,
+				BFE3D0D21E1878CC0055816F /* MessagesExtension */,
+				BFE3D0CF1E1878CC0055816F /* Frameworks */,
+				BFE3D0C21E1878CB0055816F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE3D0C21E1878CB0055816F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3D0C11E1878CB0055816F /* SpyHunter.app */,
+				BFE3D0CB1E1878CC0055816F /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE3D0C31E1878CB0055816F /* SpyHunter */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3D0C41E1878CC0055816F /* Assets.xcassets */,
+				BFE3D0C61E1878CC0055816F /* Info.plist */,
+			);
+			path = SpyHunter;
+			sourceTree = "<group>";
+		};
+		BFE3D0CF1E1878CC0055816F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3D0D01E1878CC0055816F /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFE3D0D21E1878CC0055816F /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3D0D31E1878CC0055816F /* MessagesViewController.swift */,
+				BFE3D0D51E1878CC0055816F /* MainInterface.storyboard */,
+				BFE3D0D81E1878CC0055816F /* Assets.xcassets */,
+				BFE3D0DA1E1878CC0055816F /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE3D0C01E1878CB0055816F /* SpyHunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE3D0E11E1878CC0055816F /* Build configuration list for PBXNativeTarget "SpyHunter" */;
+			buildPhases = (
+				BFE3D0BF1E1878CB0055816F /* Resources */,
+				BFE3D0E01E1878CC0055816F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE3D0CE1E1878CC0055816F /* PBXTargetDependency */,
+			);
+			name = SpyHunter;
+			productName = SpyHunter;
+			productReference = BFE3D0C11E1878CB0055816F /* SpyHunter.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		BFE3D0CA1E1878CC0055816F /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE3D0DD1E1878CC0055816F /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				BFE3D0C71E1878CC0055816F /* Sources */,
+				BFE3D0C81E1878CC0055816F /* Frameworks */,
+				BFE3D0C91E1878CC0055816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = BFE3D0CB1E1878CC0055816F /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE3D0BB1E1878CB0055816F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Brandon Moore";
+				TargetAttributes = {
+					BFE3D0C01E1878CB0055816F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BFE3D0CA1E1878CC0055816F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BFE3D0BE1E1878CB0055816F /* Build configuration list for PBXProject "SpyHunter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE3D0BA1E1878CB0055816F;
+			productRefGroup = BFE3D0C21E1878CB0055816F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE3D0C01E1878CB0055816F /* SpyHunter */,
+				BFE3D0CA1E1878CC0055816F /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE3D0BF1E1878CB0055816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE3D0C51E1878CC0055816F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE3D0C91E1878CC0055816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE3D0D91E1878CC0055816F /* Assets.xcassets in Resources */,
+				BFE3D0D71E1878CC0055816F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE3D0C71E1878CC0055816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE3D0D41E1878CC0055816F /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE3D0CE1E1878CC0055816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE3D0CA1E1878CC0055816F /* MessagesExtension */;
+			targetProxy = BFE3D0CD1E1878CC0055816F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE3D0D51E1878CC0055816F /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE3D0D61E1878CC0055816F /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE3D0DB1E1878CC0055816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE3D0DC1E1878CC0055816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE3D0DE1E1878CC0055816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaux.SpyHunter.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFE3D0DF1E1878CC0055816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaux.SpyHunter.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BFE3D0E21E1878CC0055816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpyHunter/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaux.SpyHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFE3D0E31E1878CC0055816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpyHunter/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaux.SpyHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE3D0BE1E1878CB0055816F /* Build configuration list for PBXProject "SpyHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE3D0DB1E1878CC0055816F /* Debug */,
+				BFE3D0DC1E1878CC0055816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE3D0DD1E1878CC0055816F /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE3D0DE1E1878CC0055816F /* Debug */,
+				BFE3D0DF1E1878CC0055816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFE3D0E11E1878CC0055816F /* Build configuration list for PBXNativeTarget "SpyHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE3D0E21E1878CC0055816F /* Debug */,
+				BFE3D0E31E1878CC0055816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE3D0BB1E1878CB0055816F /* Project object */;
+}
