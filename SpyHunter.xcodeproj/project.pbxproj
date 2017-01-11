@@ -13,6 +13,8 @@
 		BFE3D0D41E1878CC0055816F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3D0D31E1878CC0055816F /* MessagesViewController.swift */; };
 		BFE3D0D71E1878CC0055816F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE3D0D51E1878CC0055816F /* MainInterface.storyboard */; };
 		BFE3D0D91E1878CC0055816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE3D0D81E1878CC0055816F /* Assets.xcassets */; };
+		BFE3D0E71E1ABF3F0055816F /* IdentityRevealerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3D0E61E1ABF3F0055816F /* IdentityRevealerViewController.swift */; };
+		BFE3D0E91E1B6F210055816F /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE3D0E81E1B6F210055816F /* StartGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BFE3D0D61E1878CC0055816F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		BFE3D0D81E1878CC0055816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE3D0DA1E1878CC0055816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE3D0E61E1ABF3F0055816F /* IdentityRevealerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityRevealerViewController.swift; sourceTree = "<group>"; };
+		BFE3D0E81E1B6F210055816F /* StartGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				BFE3D0D31E1878CC0055816F /* MessagesViewController.swift */,
+				BFE3D0E61E1ABF3F0055816F /* IdentityRevealerViewController.swift */,
+				BFE3D0E81E1B6F210055816F /* StartGameViewController.swift */,
 				BFE3D0D51E1878CC0055816F /* MainInterface.storyboard */,
 				BFE3D0D81E1878CC0055816F /* Assets.xcassets */,
 				BFE3D0DA1E1878CC0055816F /* Info.plist */,
@@ -211,7 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE3D0E71E1ABF3F0055816F /* IdentityRevealerViewController.swift in Sources */,
 				BFE3D0D41E1878CC0055816F /* MessagesViewController.swift in Sources */,
+				BFE3D0E91E1B6F210055816F /* StartGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
